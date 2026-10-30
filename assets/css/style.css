@@ -45,7 +45,7 @@ a:hover { text-decoration: underline; }
 .masthead {
   text-align: center;
   padding: 26px 16px 16px;
-  background: linear-gradient(180deg, #8E1626 0%, #6E0F1D 100%);
+  background: linear-gradient(180deg, #D9232E 0%, #B30D1E 100%);
   border-bottom: 4px solid #C9A227;
 }
 .brandmark { display: inline-flex; align-items: center; gap: 14px; color: #ffffff; }
