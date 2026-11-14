@@ -148,6 +148,8 @@ def nav(prefix, current="home"):
     for pocket in POCKETS:
         href = f"#{slugify(pocket)}" if current == "home" else f"{prefix}index.html#{slugify(pocket)}"
         items.append(f'<li><a href="{href}">{esc(pocket)}</a></li>')
+    items.append(f'<li><a href="{prefix}books.html">Books</a></li>')
+    items.append(f'<li><a href="{prefix}newsletter.html">Newsletter</a></li>')
     return '<nav class="main-nav" aria-label="Sections"><ul>\n' + "\n".join(items) + "\n</ul></nav>\n"
 
 
